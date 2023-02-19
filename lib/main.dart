@@ -49,10 +49,10 @@ class MyApp extends StatelessWidget {
                 ),
               ),
                 SizedBox(
-                height: 20.0,
-                width: 150.0,
+                height: 10.0,
+                width: 350.0,
                 child: Divider(
-                color: Colors.teal,
+                color: Colors.black,
                 ),),
               // Container( instead of this you can use card and card dosent allow padding to be done
               Card(
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.phone_in_talk,
-                    color: Colors.black,
+                    color: Colors.teal,
                   ),
                   title: Text(
                     '+91 7889898798',
@@ -79,7 +79,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.email_outlined,
-                    color: Colors.black,
+                    color: Colors.teal,
                   ),
                   title: Text(
                     'tejaswi@gmail.com',
